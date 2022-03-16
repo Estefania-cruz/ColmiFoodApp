@@ -10,6 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColmiFoodApp">
         <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".EditarPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".Registrar"
+            android:exported="false" />
+        <activity
+            android:name=".Carrito"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarProveedor"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarCategoria"
+            android:exported="false" />
+        <activity
+            android:name=".Productos"
+            android:exported="false" />
+        <activity
+            android:name=".EditarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarEmpleado"
+            android:exported="false" />
+        <activity
             android:name=".Bienvenido"
             android:exported="false" />
         <activity

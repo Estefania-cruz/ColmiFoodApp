@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_bienvenido.xml" value="0.18795289855072464" />
-        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_main.xml" value="0.2359081419624217" />
+        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_bienvenido.xml" value="0.1" />
+        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_editar_producto.xml" value="0.1" />
+        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_login.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/estef/AndroidStudioProjects/ColmiFoodApp/app/src/main/res/layout/activity_registrar_empleado.xml" value="0.1712962962962963" />
       </map>
     </option>
   </component>
@@ -13,5 +16,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

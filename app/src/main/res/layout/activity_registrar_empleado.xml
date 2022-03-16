@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarEmpleado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="650dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="544dp"
+                    android:backgroundTint="@color/black"
+                    android:backgroundTintMode="src_over"
+                    android:text="Registrar Empleado"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/btnIniciarSesion"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ColmiFood"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/txtCorreo"
+                    app:layout_constraintEnd_toEndOf="@+id/textView2"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="@+id/textView2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:layout_constraintVertical_bias="0.078" />
+
+
+                <EditText
+                    android:id="@+id/txtNombre"
+                    android:layout_width="243dp"
+                    android:layout_height="54dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="137dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="11dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Nombre:"
+                    app:layout_constraintBottom_toTopOf="@+id/txtApellido"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.434"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/txtApellido"
+                    android:layout_width="250dp"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="12dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Apellido Materno:"
+                    app:layout_constraintBottom_toTopOf="@+id/txtApellidoP"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+                <EditText
+                    android:id="@+id/txtApellidoP"
+                    android:layout_width="254dp"
+                    android:layout_height="78dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="9dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Apellido Paterno:"
+                    app:layout_constraintBottom_toTopOf="@+id/txtCorreo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtApellido" />
+
+                <EditText
+                    android:id="@+id/txtCotrasennia"
+                    android:layout_width="266dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="9dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Cotraseña:"
+                    app:layout_constraintBottom_toTopOf="@+id/txtTipoUsuario"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
+
+                <EditText
+                    android:id="@+id/txtTipoUsuario"
+                    android:layout_width="265dp"
+                    android:layout_height="62dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginEnd="67dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Tipo de Usuario:"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCotrasennia" />
+
+                <EditText
+                    android:id="@+id/txtCorreo"
+                    android:layout_width="265dp"
+                    android:layout_height="62dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Correo:"
+                    app:layout_constraintBottom_toTopOf="@+id/txtCotrasennia"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtApellidoP" />
+
+                <Button
+                    android:id="@+id/btnIniciarSesion"
+                    android:layout_width="217dp"
+                    android:layout_height="61dp"
+                    android:layout_marginBottom="1336dp"
+                    android:backgroundTint="#FF9800"
+                    android:text="Iniciar Sesión"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
